@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name:                Object-Episode
+version:             0.01
+abstract:            ~
+license:             perl
+author:              
+    - Winfried Trumper <pub+perl@wt.tuxomania.net>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    parent:                        0.01
+    Test::Simple:                  0.01
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

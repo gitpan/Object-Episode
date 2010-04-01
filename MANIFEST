@@ -1,0 +1,34 @@
+Changes
+examples/paragraph-poll_edge.pl
+examples/paragraph-stdx_io.pl
+examples/paragraph-tcp_socket_io.pl
+examples/synopsis.pl
+INSTALL
+lib/Object/Episode.pm
+lib/Object/Episode.pod
+lib/Object/Episode/Group.pm
+lib/Object/Episode/Loop.pm
+lib/Object/Episode/OT/Array_As_Object.pm
+lib/Object/Episode/OT/Object_By_Array.pm
+lib/Object/Episode/OT/Object_By_Hash.pm
+lib/Object/Episode/OT/Object_By_Scalar.pm
+lib/Object/Episode/OT/T.pm
+lib/Object/Episode/Paragraph/Poll_Edge.pm
+lib/Object/Episode/Paragraph/STDx_IO.pm
+lib/Object/Episode/Paragraph/TCP_Socket_IO.pm
+lib/Object/Episode/Source/IO_Unblocked.pm
+lib/Object/Episode/Source/Poll.pm
+lib/Object/Episode/Source/Signals.pm
+lib/Object/Episode/Source/Time.pm
+lib/Object/Episode/Synopsis.pm
+lib/Object/Episode/Synopsis.pod
+lib/Object/Episode/Target.pm
+lib/Object/Episode/Target/IO_Unblocked.pm
+lib/Object/Episode/Target/Periodic.pm
+lib/Object/Episode/Target/Signal.pm
+lib/Object/Episode/Target/Timeout.pm
+lib/Object/Episode/Target/Wallclock.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+META.yml                                 Module meta-data (added by MakeMaker)
