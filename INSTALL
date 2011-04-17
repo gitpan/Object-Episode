@@ -1,42 +1,10 @@
 Installation only makes sense to follow the development. Anything might
-change. Don't expect support for versions other than the current. 
+change. Don't expect support for versions other than the current.
 
-The installation of Package::Transporter requires mro, which is part
-of the core modules since Perl 5.10. It is even available for 5.8 and
-before. There is a compatibility module called MRO::Compat, which
-provides the mro:: package namespace and subroutines, but surprisingly
-you can't simply load it with 'use mro'.  Thus the CPAN shell won't
-automatically install MRO::Compat for you.
-
-After installing MRO::Compat manually, you might want to install the
-following three lines in a file like
-/usr/lib/perl5/site_perl/$PERL_VERSION/mro.pm to fix the issue:
-
-	package mro;
-	use MRO::Compat;
-	1;
-
-
-Other than that, Package::Transporter is fairly straightforward in terms of
-installation. 
+Object::Episode is fairly straightforward in terms of
+installation.
 
 	perl Makefile.PL
 	make
 	make test
 	make install
-
-Package::Transporter makes use of the follwoing modules, most
-of which are part of the Perl5 core.
-
-	Scalar::Util
-	mro
-	parent
-	Carp
-	Test::Simple (for installation)
-
-The example files and some generators require these additional modules:
-
-	Data::Dumper
-	Fcntl
-	SDBM_File
-	DBI (not in the core, but widely found)

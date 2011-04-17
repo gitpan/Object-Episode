@@ -1,2 +1,4 @@
 0.01	01 April 2010
 	- first public release
+0.02	17 April 2011
+	- moved ::OT::Object_By to the newly released Object::By

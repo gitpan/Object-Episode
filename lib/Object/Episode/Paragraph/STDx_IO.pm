@@ -8,7 +8,7 @@ use Carp
 use POSIX
 	qw(:errno_h);
 use parent qw(
-	Object::Episode::OT::Object_By_Array
+	Object::By::Array
 );
 
 use Object::Episode;

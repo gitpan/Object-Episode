@@ -9,9 +9,6 @@ lib/Object/Episode.pod
 lib/Object/Episode/Group.pm
 lib/Object/Episode/Loop.pm
 lib/Object/Episode/OT/Array_As_Object.pm
-lib/Object/Episode/OT/Object_By_Array.pm
-lib/Object/Episode/OT/Object_By_Hash.pm
-lib/Object/Episode/OT/Object_By_Scalar.pm
 lib/Object/Episode/OT/T.pm
 lib/Object/Episode/Paragraph/Poll_Edge.pm
 lib/Object/Episode/Paragraph/STDx_IO.pm

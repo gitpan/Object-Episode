@@ -5,7 +5,7 @@ use Carp
 	qw(confess);
 use Object::Episode::Target::Periodic;
 use parent qw(
-	Object::Episode::OT::Object_By_Array
+	Object::By::Array
 );
 
 use Package::Transporter sub{eval shift}, sub {

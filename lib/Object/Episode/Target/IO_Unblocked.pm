@@ -5,7 +5,7 @@ use Carp
 	qw(confess);
 use parent qw(
 	Object::Episode::Target
-	Object::Episode::OT::Object_By_Array
+	Object::By::Array
 );
 use Object::Episode;
 use Object::Episode::Source::IO_Unblocked;
